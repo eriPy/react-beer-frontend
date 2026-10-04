@@ -9,7 +9,6 @@ import Porter from "../components/Porter";
 import Sour from "../components/Sour";
 import Stout from "../components/Stout";
 import WheatBeer from "../components/WheatBeer";
-import { Link } from "react-router-dom";
 
 function Beer() {
     const [lagerInformation, setLagerInformation] = useState(false);
@@ -181,13 +180,6 @@ function Beer() {
                     </ul>
                 </section>
                 </div>
-            </div>
-            <div className="footer">
-                <Link to="/learn-more" className="go-to">
-                    <p className="content-link">
-                        Want to know more about beers and try some?
-                    </p>
-                </Link>
             </div>
         </main>
     );
